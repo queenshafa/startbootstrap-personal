@@ -2860,6 +2860,24 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #1e30f3;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the Download Resume button */
+.download-button {
+  text-align: right;
+}
+
 .btn-secondary {
   --bs-btn-color: #000;
   --bs-btn-bg: #e21e80;
